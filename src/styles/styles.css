@@ -1,0 +1,82 @@
+:root{
+  --color-gray: gray;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  font-size: 1.9rem;
+  padding: 10px 5px;
+  background-color: transparent;
+  border: 0;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.twitter{
+  display: flex;
+  max-width: 1400px;
+  margin:  0 auto;
+}
+
+.twitter--menu, .twitter--recommended{
+  width: 25%;
+  padding: 15px;
+}
+
+.twitter--profile{
+  width: 50%;
+}
+
+
+/* Twitter Menu */
+.twitter--nav .nav--list{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.twitter--nav .nav--list .item--button{
+  text-align: left;
+  width: 100%;
+}
+
+.profile--header{
+  display: flex;
+  align-items: center;
+}
+
+.profile--header .header--button{
+  margin-right: 25px;
+}
+
+.profile--header .info--name{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.profile--header .info--tweets{
+  font-size: 1.4rem;
+  color: var(--gray-color);
+}
+

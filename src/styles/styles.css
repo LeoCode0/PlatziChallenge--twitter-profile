@@ -1,5 +1,7 @@
 :root{
-  --color-gray: gray;
+  --color-gray: #ecf1f2;
+  --brand-color: #1d9bf0;
+  --gray-text: #536471;
 }
 
 *{
@@ -47,8 +49,13 @@ button:hover{
 
 .twitter--profile{
   width: 50%;
+  border: 1px solid var(--color-gray);
 }
 
+
+.profile--banner img{
+  width: 100%;
+}
 
 /* Twitter Menu */
 .twitter--nav .nav--list{
@@ -77,6 +84,173 @@ button:hover{
 
 .profile--header .info--tweets{
   font-size: 1.4rem;
-  color: var(--gray-color);
+  color: var(--gray-text);
 }
 
+/* Profile details */
+
+.profile--details{
+  padding: 15px;
+}
+
+.profile--details .detail--header{
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.profile--details .header--img-container{
+  position: absolute;
+  top: -100px;
+  border: 5px solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile--details .header--button{
+  position: absolute;
+  right: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  font-weight: 300;
+}
+
+.profile--details .header--img-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Description section */
+
+.description--name{
+  font-size: 2.4rem;
+}
+
+.description--user{
+  margin: 5px 0 20px 0;
+  font-size: 1.4rem;
+  color: var(--gray-text);
+}
+
+.description--profile{
+  font-size: 1.6rem;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+/* Profile links */
+
+
+.profile--links{
+  display: flex;
+  padding: 15px;
+}
+
+.profile--links li{
+  width: 25%;
+  height: 40px;
+  transition: all .3s;
+}
+
+.profile--links li:hover{
+  cursor: pointer;
+  background-color: var(--color-gray);
+}
+
+.profile--links li a{
+  font-size: 1.4rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+
+
+/* Recommended section */
+
+.twitter--recommended .recommended--header input{
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: var(--color-gray);
+  color: black;
+  border: 0;
+}
+
+.twitter--recommended .recommended--signup{
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid var(--color-gray);
+}
+
+.signup--title{
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.signup--paragraph{
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+
+.list--buttons li button{
+  padding: 5px 10px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid var(--color-gray);
+}
+
+.list--buttons li button:hover{
+  cursor: pointer;
+  background-color: var(--color-gray);
+  transition: all .3s;
+}
+
+.recommended--images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 90px;
+  gap: 1px;
+  border-radius: 15px;
+  margin: 5px 0;
+}
+
+
+.tweets--tweet{
+  display: flex;
+  border: 1px solid var(--color-gray);
+}
+
+.tweets--tweet img{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tweet--container{
+  padding: 10px;
+}
+
+.container--header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem
+}
+
+.tweet--content{
+  font-size: 1.6rem;
+  margin: 5px;
+  width: 70%;
+}

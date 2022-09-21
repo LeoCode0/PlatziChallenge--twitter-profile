@@ -1,8 +1,4 @@
-:root{
-  --color-gray: #ecf1f2;
-  --brand-color: #1d9bf0;
-  --gray-text: #536471;
-}
+@import '_vars.css';
 
 *{
   padding: 0;
@@ -44,7 +40,7 @@ button:hover{
 
 .twitter--menu, .twitter--recommended{
   width: 25%;
-  padding: 15px;
+  padding: var(--padding-lg);
 }
 
 .twitter--profile{
@@ -90,7 +86,7 @@ button:hover{
 /* Profile details */
 
 .profile--details{
-  padding: 15px;
+  padding: var(--padding-lg);
 }
 
 .profile--details .detail--header{
@@ -146,7 +142,7 @@ button:hover{
 
 .profile--links{
   display: flex;
-  padding: 15px;
+  padding: var(--padding-lg);;
 }
 
 .profile--links li{
@@ -174,7 +170,7 @@ button:hover{
 /* Recommended section */
 
 .twitter--recommended .recommended--header input{
-  padding: 10px;
+  padding: var(--padding-md);
   width: 100%;
   border-radius: 15px;
   margin-bottom: 20px;
@@ -184,7 +180,7 @@ button:hover{
 }
 
 .twitter--recommended .recommended--signup{
-  padding: 15px;
+  padding: var(--padding-lg);
   border-radius: 15px;
   border: 1px solid var(--color-gray);
 }
@@ -239,7 +235,7 @@ button:hover{
 }
 
 .tweet--container{
-  padding: 10px;
+  padding: var(--padding-md);;
 }
 
 .container--header{

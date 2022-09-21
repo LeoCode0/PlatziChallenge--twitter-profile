@@ -1,0 +1,11 @@
+:root{
+    /* Colors */
+    --color-gray: #ecf1f2;
+    --brand-color: #1d9bf0;
+    --gray-text: #536471;
+
+    /* padding */
+    --padding-sm: 5px;
+    --padding-md: 10px;
+    --padding-lg: 15px;
+  }

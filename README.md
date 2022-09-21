@@ -1,6 +1,6 @@
 # PlatziChallenge--twitter-profile
 
-An example of twitter's home page
+An example of twitter's profile page
 
 ### Instalación 🔧
 
@@ -18,9 +18,9 @@ Cualquier contirbución al proyecto es bien recibida !
 
 ## Autor ✒️
 
-- Comunidad Platzi and LeoCode
+- Comunidad Platzi and @LeoCode
 
 ## Licencia 📄
 
-
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE](LICENSE) para detalles
 ---

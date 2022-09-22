@@ -38,6 +38,20 @@ button:hover{
   margin:  0 auto;
 }
 
+.twitter--menu{
+  display: flex;
+  flex-direction: column;
+}
+.twitter--menu img{
+  width: 25px;
+  height: 25px;
+}
+
+.list--item{
+  display: flex;
+  align-items: center;
+}
+
 .twitter--menu, .twitter--recommended{
   width: 25%;
   padding: var(--padding-lg);
@@ -71,6 +85,10 @@ button:hover{
 
 .profile--header .header--button{
   margin-right: 25px;
+}
+
+.header--button img{
+  width: 30px;
 }
 
 .profile--header .info--name{

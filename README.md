@@ -14,7 +14,7 @@ open index.html
 
 ## Contribuyendo 🖇️
 
-Cualquier contirbución al proyecto es bien recibida !
+Cualquier contribución al proyecto es bien recibida !
 
 ## Autor ✒️
 

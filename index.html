@@ -8,24 +8,48 @@
   <title>Twitter JuanDC</title>
   <link rel="stylesheet" href="./src/styles/vars.css">
   <link rel="stylesheet" href="./src/styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <main class="twitter">
     <section class="twitter--menu">
-      <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" alt="twitter--icon">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" alt="twitter--icon" class="twitter--icon">
       <nav class="twitter--nav">
         <ul class="nav--list">
           <li class="list--item">
-            <img src="https://img.icons8.com/ios/50/000000/search--v4.png" alt="">
+            <i class="icons-twitter fa-solid fa-house-user"></i>
+            <button class="item--button">Home</button>
+          </li>
+          <li class="list--item">
+            <img  class="nav--list-icons" src="https://img.icons8.com/ios/50/000000/search--v4.png" alt="">
             <button class="item--button">Explorar</button>
           </li>
           <li class="list--item">
-            <img src="https://img.icons8.com/sf-regular/48/000000/settings.png" alt="">
-            <button class="item--button">Configuracion</button>
+            <i class="icons-twitter fa-regular fa-bell"></i>
+            <button class="item--button">Notificaciones</button>
+          </li>
+          <li class="list--item">
+            <i class="icons-twitter fa-regular fa-envelope"></i>
+            <button class="item--button">Mensajes</button>
+          </li>
+          <li class="list--item">
+            <i class="icons-twitter  fa-solid fa-list"></i>
+            <button class="item--button">Listas</button>
+          </li>
+          <li class="list--item">
+            <i class="icons-twitter fa-solid fa-user"></i>
+            <button class="item--button">Perfil</button>
+          </li>
+          <li class="list--item">
+            <img class="nav--list-icons" src="https://img.icons8.com/sf-regular/48/000000/settings.png" alt="">
+            <button class="item--button">Ajustes</button>
           </li>
         </ul>
       </nav>
+      <button class="item--button tweet-button">Tweet</button>
     </section>
     <section class="twitter--profile">
       <div class="profile--header">

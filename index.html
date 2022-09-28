@@ -1,63 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Twitter JuanDC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./src/styles/vars.css">
   <link rel="stylesheet" href="./src/styles/styles.css">
+  
 </head>
 
 <body>
   <main class="twitter">
+
     <section class="twitter--menu">
-      <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" alt="twitter--icon">
+      <div class="container-twitter--icon">
+        <img src="./src/imgs/Twitter_icon.png" alt="twitter--icon" class="twitter--icon">
+      </div>
       <nav class="twitter--nav">
         <ul class="nav--list">
           <li class="list--item">
-            <img src="https://img.icons8.com/ios/50/000000/search--v4.png" alt="">
+            <img src="https://img.icons8.com/windows/32/000000/home.png"/>
+            <button class="item--button">Home</button>
+          </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/ios-filled/50/000000/hashtag.png"/>
             <button class="item--button">Explorar</button>
           </li>
           <li class="list--item">
-            <img src="https://img.icons8.com/sf-regular/48/000000/settings.png" alt="">
-            <button class="item--button">Configuracion</button>
+            <img src="https://img.icons8.com/ios/50/000000/appointment-reminders--v1.png"/>
+            <button class="item--button">Notifications</button>
           </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/external-inkubators-glyph-inkubators/25/000000/external-messages-business-inkubators-glyph-inkubators.png"/>
+            <button class="item--button">Messages</button>
+          </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/external-phatplus-lineal-phatplus/64/000000/external-bookmarks-essential-phatplus-lineal-phatplus.png"/>
+            <button class="item--button">Bookmarks</button>
+          </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/windows/32/000000/ingredients-list.png"/>
+            <button class="item--button">Lists</button>
+          </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/small/64/000000/gender-neutral-user.png"/>
+            <button class="item--button">Profile</button>
+          </li>
+          <li class="list--item">
+            <img src="https://img.icons8.com/small/64/000000/connection-status-off.png"/>
+            <button class="item--button">More</button>
+          </li>
+          <button class="primary-button">Tweet</button>
         </ul>
       </nav>
     </section>
+
     <section class="twitter--profile">
       <div class="profile--header">
         <button class="header--button"><img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-left.png" alt=""></button>
         <div class="header--info">
           <h2 class="info--name">💚🚀JuanDC: Juan David Castro ⚡️👨‍💻 ⚛️</h2>
-          <p class="info--tweets">12 mil tuits</p>
+          <p class="info--tweets">12.4K Tweets</p>
         </div>
       </div>
+
       <div class="profile--banner">
         <img src="./src/imgs/jaun-banner.jpg" alt="Banner de juan dc">
       </div>
+
       <div class="profile--details">
         <div class="detail--header">
           <div class="header--img-container">
             <img src="./src/imgs/juan-pic.jpg" alt="Foto de Juan">
           </div>
-          <button class="header--button">
-            Seguir
-          </button>
+          <div class="header-container-button">
+            <div class="puntos">
+              <p>...</p>
+            </div>
+            <button class="follow">
+              Seguir
+            </button>
+          </div>
         </div>
         <div class="detail--description">
           <h2 class="description--name">💚🚀JuanDC: Juan David Castro ⚡️👨‍💻 ⚛️</h2>
           <p class="description--user">@fjuandc</p>
           <p class="description--profile">
-            📚🍏 The Eternal Student
+            📚🍏 The Eternal Student 
+            <br>
             👨‍🏫 Course Director and Teacher in
-            @Platzi
+            @Platzi 
+            <br>
             ✍️ Computer Science and Programming
           </p>
+          <div class="hashtag">
+            <a href="">#NuncaParesDeAprender</a>
+            <p>💚🚀</p>
+        </div>
+        <div class="informacion">
+            <div class="ubicacion informacion-items">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Bogotá, DC, Colombia</p>
+            </div>
+            <div class="enlace informacion-items">
+                <i class="fa-solid fa-link"></i>
+                <a href="https://platzi.com/profes/juandc/">https://platzi.com/profes/juandc/</a>
+            </div>
+            <div class="unido informacion-items">
+                <i class="fa-solid fa-calendar"></i>
+                <p>Joined May 2016</p>
+            </div>            
+        </div>
         </div>
       </div>
+
       <ul class="profile--links">
         <li>
           <a href="">Tweets</a>

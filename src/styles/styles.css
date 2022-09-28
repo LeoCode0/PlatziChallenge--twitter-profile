@@ -45,14 +45,45 @@ button:hover{
   height: 25px;
 }
 
+.container-twitter--icon{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:30px ;
+  border-radius: 50%;
+}
+
 .list--item{
   display: flex;
   align-items: center;
+  padding: 0 10px;
+  margin-top: 12px;
+}
+.container-twitter--icon:hover,
+.list--item:hover{
+  background: var(--color-gray);
+  border-radius: 20px;
 }
 
 .twitter--menu, .twitter--recommended{
   width: 25%;
   padding: var(--padding-lg);
+}
+.primary-button{
+  margin-top: 20px;
+  width: 100%;
+  height: 52px;
+  border-radius: 40px;
+  border: none;
+  background: #52a1da;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.primary-button:hover{
+  background: #2D85C4;
 }
 
 .twitter--profile{
@@ -62,8 +93,9 @@ button:hover{
 
 
 .profile--banner img{
-  width: 100%;
+  width: 100%;  
 }
+
 
 /* Twitter Menu */
 .twitter--nav .nav--list{
@@ -83,19 +115,20 @@ button:hover{
 
 .profile--header .header--button{
   margin-right: 25px;
+  margin-left: 8px;
 }
 
 .header--button img{
-  width: 30px;
+  width: 16px;
 }
 
 .profile--header .info--name{
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
 .profile--header .info--tweets{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--gray-text);
 }
 
@@ -119,14 +152,46 @@ button:hover{
   border-radius: 50%;
 }
 
-.profile--details .header--button{
-  position: absolute;
-  right: 50px;
-  border-radius: 15px;
+.header-container-button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 12px;
+}
+.puntos{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gray);
+  background: var(--withe);
+  display: flex;
+  justify-content: center;
+  align-items: star;  
+  margin-right: 8px;          
+}
+.puntos p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.follow{
+  background: black;
   color: white;
-  background-color: black;
-  padding: 5px 10px;
-  font-weight: 300;
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.puntos:hover{
+  cursor:pointer;
+  background: var(--color-gray);
+}
+.follow:hover{
+  background: rgba(0, 0, 0, 0.687);
+  cursor:pointer;
 }
 
 .profile--details .header--img-container img{
@@ -138,7 +203,7 @@ button:hover{
 /* Description section */
 
 .description--name{
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 .description--user{
@@ -148,9 +213,43 @@ button:hover{
 }
 
 .description--profile{
-  font-size: 1.6rem;
-  width: 40%;
+  font-size: 1.5rem;
+  width: 50%;
   margin-bottom: 20px;
+}
+
+.hashtag{
+  margin-left: 12px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.hashtag a{
+  text-decoration: none;
+  color: #52a1da;
+}
+.informacion{
+  display: flex;
+  margin-left: 12px;
+  font-size: 1.4rem;
+  margin-top: 0;
+  height: 20px;
+  color: gray;
+}
+.informacion-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 12px;
+}        
+.enlace a{
+  text-decoration: none;
+  color: #52a1da;
+}
+.informacion-items i{
+  margin-right: 6px;
 }
 
 /* Profile links */

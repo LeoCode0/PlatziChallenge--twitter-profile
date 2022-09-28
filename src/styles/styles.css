@@ -37,42 +37,17 @@ button:hover{
 }
 
 .twitter--menu{
-  background-color: #ffff;
-  position: fixed;
-  height: 100vh;
-  min-width: 260px;
-  max-width: 260px;
   display: flex;
   flex-direction: column;
 }
-.twitter--icon{
-  width: 32px;
-  margin-left: 12px;
-  margin-bottom: 10px;
-}
-.icons-twitter{
-  font-size: 20px;
-  vertical-align: center;
-}
-
-.nav--list-icons{
+.twitter--menu img{
   width: 25px;
   height: 25px;
-}
-
-.tweet-button{
-  width: 90%;
-  padding: 14px 0;
-  background-color: var(--brand-color);
-  border-radius: 40px;
-  text-align: center;
-  color: #ffff;
 }
 
 .list--item{
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .twitter--menu, .twitter--recommended{
@@ -81,10 +56,10 @@ button:hover{
 }
 
 .twitter--profile{
-  margin-left: 26%;
   width: 50%;
   border: 1px solid var(--color-gray);
 }
+
 
 .profile--banner img{
   width: 100%;
@@ -92,9 +67,6 @@ button:hover{
 
 /* Twitter Menu */
 .twitter--nav .nav--list{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   width: 90%;
   margin: 0 auto;
 }
